@@ -1,0 +1,10 @@
+[Unit]
+Description=Auto-brightness daemon
+
+[Service]
+Type=simple
+ExecStart=/opt/AutoBrightness/auto_brightnessServiceControl.sh start
+ExecStop=/opt/AutoBrightness/auto_brightnessServiceControl.sh stop
+
+[Install]
+WantedBy=multi-user.target
