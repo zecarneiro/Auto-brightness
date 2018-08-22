@@ -49,7 +49,7 @@ done
 # Install
 sudo cp -r $appFolder $pathApp
 echo "$value" | sudo tee "$pathApp$appFolder$fileMinValueBattery" > /dev/null
-sudo chmod -R 777 $pathApp$appFolder
+sudo chmod -R 755 $pathApp$appFolder
 sudo mv $pathApp$appFolder$nameService $pathFileService
 
 # Enable Service
