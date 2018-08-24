@@ -1,7 +1,7 @@
 ## Install guide
 
 ```
-wget https://codeload.github.com/zecarneiro/Auto-brightness/archive/zip/v1.0 -O Auto_brightness.zip
+wget https://codeload.github.com/zecarneiro/Auto-brightness/zip/v1.0 -O Auto_brightness.zip
 ```
 ```
 unzip -q Auto_brightness.zip
